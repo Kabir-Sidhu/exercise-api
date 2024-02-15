@@ -19,4 +19,4 @@ def details(name):
 def search(query):
     return jsonify(searchExercises(query))
 
-app.run()
+app.run("0.0.0.0", port=5000)
